@@ -1,0 +1,42 @@
+h1 {
+color: white;
+background: orange;
+border: 1px solid black;
+padding 0;
+font-weight: bold;
+text-align: center;
+}
+
+body {
+background-color: white;
+color: black;
+font-family:Arial,sans-serif;
+margin: 2px;
+border: 12px solid;
+}
+
+article {
+line-height: 1.6;
+letter-spacing: 1.5px;
+padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.me img {
+float: left;
+border-radius: 8px;
+width: 600px;
+margin: 15px;
+}
+
+.family img{
+float: right;
+border-radius: 8px;
+width: 600px;
+margin: 15px;
+}
